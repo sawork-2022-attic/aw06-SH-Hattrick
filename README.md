@@ -1,6 +1,5 @@
 # aw06
 
-
 [Amazon Review Data (2018)](https://nijianmo.github.io/amazon/index.html) has a huge products metadata set of multiple categories.
 
 |category| reviews | metadata |
@@ -21,3 +20,14 @@ Please finish the following tasks:
 
 
 And, of course, always try to make the system run as fast as possible.
+
+
+
+1. 下载了两份Amazon Matadata:
+
+   ![image-20220701113005849](MDSRC\image-20220701113005849.png)
+
+2. 复用AW4，使用Mybatis-Plus持久层框架将数据存入数据库中。
+
+   
+

@@ -21,7 +21,7 @@ public class ProductWriter implements ItemWriter<Product>, StepExecutionListener
 
     @Override
     public void write(List<? extends Product> list) throws Exception {
-//        list.stream().forEach(System.out::println);
-//        System.out.println("chunk written");
+        list.stream().forEach(System.out::println);
+        System.out.println("chunk written");
     }
 }
